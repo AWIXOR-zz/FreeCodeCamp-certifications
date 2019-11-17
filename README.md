@@ -2,9 +2,9 @@
 Here I'll put my progress on the FreeCodeCamp certifications
 
 
-## Certifications
+# Certifications
 
-  # Responsive Web Design Certification (300 hours)
+  ## Responsive Web Design Certification (300 hours)
       1- Basic HTML and HTML5
       2- Basic CSS
       3- Applied Visual Design
@@ -14,8 +14,8 @@ Here I'll put my progress on the FreeCodeCamp certifications
       7- CSS Grid
       8- Responsive Web Design Projects
       
-  # JavaScript Algorithms and Data Structures Certification (300 hours)
-      1- Basic JavaScript :white_check_mark:
+  ## JavaScript Algorithms and Data Structures Certification (300 hours)
+      1- Basic JavaScript `:white_check_mark:`
       2- ES6
       3- Regular Expressions
       4- Debugging

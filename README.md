@@ -1,6 +1,5 @@
 # FreeCodeCamp-certifications
 Here I'll put my progress on the FreeCodeCamp certifications
- | :bowtie: :heavy_check_mark: |
 
 # Certifications
 
@@ -15,7 +14,7 @@ Here I'll put my progress on the FreeCodeCamp certifications
       8- Responsive Web Design Projects
       
   ## JavaScript Algorithms and Data Structures Certification (300 hours)
-      1- Basic JavaScript
+      1- Basic JavaScript :heavy_check_mark:
       2- ES6
       3- Regular Expressions
       4- Debugging

@@ -1,6 +1,6 @@
 # FreeCodeCamp-certifications
 Here I'll put my progress on the FreeCodeCamp certifications
-| :bowtie: `:heavy_check_mark:` | :smile: `:smile:` | :laughing: `:laughing:` |
+ | :bowtie: :heavy_check_mark: |
 
 # Certifications
 

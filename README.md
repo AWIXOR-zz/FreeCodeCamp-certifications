@@ -3,7 +3,7 @@ Here I'll put my progress on the FreeCodeCamp certifications
 
 
 # Certifications
-
+:blush: `:blush:` | :smiley: `:smiley:` | :relaxed: `:relaxed:` |
   ## Responsive Web Design Certification (300 hours)
       1- Basic HTML and HTML5
       2- Basic CSS

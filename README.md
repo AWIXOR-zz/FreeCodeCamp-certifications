@@ -22,8 +22,8 @@ Here I'll put my progress on the FreeCodeCamp certifications:
   <ol>
     <li>Basic JavaScript :heavy_check_mark:</li>
     <li>ES6 :heavy_check_mark:</li>
-    <li>Regular Expressions</li>
-    <li>Debugging</li>
+    <li>Regular Expressions :heavy_check_mark:</li>
+    <li>Debugging :heavy_check_mark:</li>
     <li>Basic Data Structures</li>
     <li>Basic Algorithm Scripting</li>
     <li>Object Oriented Programming</li>

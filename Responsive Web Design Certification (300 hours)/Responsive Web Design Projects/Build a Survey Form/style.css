@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#title, #description{
+    text-align: center;
+    color: #487eb0;
+    font-family: 'dancing script';
+}
+.footer{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(106, 116, 126);
+}

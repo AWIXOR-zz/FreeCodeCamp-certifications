@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build a Survey Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Awixor Survey Form</h1>
+            <p id="description">Please let us know your experience with our website</p>
+        </header>
+        <div class="row">
+            <form id="survey-form" class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="First name" id="name" type="text" class="validate" required>
+                        <label id="name-label" for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Last name" id="last_name" type="text" class="validate" required>
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="Email" id="email" type="email" class="validate" required>
+                        <label id="email-label" for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <select id="dropdown">
+                            <option value="" disabled selected>Choose your option</option>
+                            <option value="1">Front-End web developer</option>
+                            <option value="2">Back-End web developer</option>
+                            <option value="3">Full-Stack web developer</option>
+                            <option value="4">Software developer</option>
+                            <option value="5">Other</option>
+                        </select>
+                        <label>Which option best describes yourself?</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <p>What topics do you want us to cover?</p><br>
+                        <p>
+                            <label>
+                                <input name="where" type="checkbox" value="1" />
+                                <span>React topics</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="where" type="checkbox" value="2" />
+                                <span>Angular topics</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="where" type="checkbox" value="3" />
+                                <span>Vue topics</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input placeholder="number" type="number" id="number" name="rate" min="0" max="10">
+                        <label id="number-label">Rate our website /10</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <p>Would you recommend freeCodeCamp to a friend?</p><br>
+                        <p>
+                            <label>
+                                <input name="user-recommend" value="definitely" type="radio" checked />
+                                <span>Definitely</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="user-recommend" value="maybe" type="radio" />
+                                <span>Maybe</span>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <input name="user-recommend" value="not-really" type="radio" />
+                                <span>Not really</span>
+                            </label>
+                        </p>
+                        <p>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea">Suggestion</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+
+                        <button id="submit" class="btn waves-effect waves-light" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="website">Feel free to visit our website any time: <a href="https://awixor.netlify.com"> awixor</a></p>
+    </div>
+    <script src="//code.jquery.com/jquery-2.1.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+            $('input#input_text, textarea#textarea').characterCounter();
+        });
+    </script>
+
+</body>
+
+</html>

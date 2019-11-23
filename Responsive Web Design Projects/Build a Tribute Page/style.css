@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    margin:50px;
+    color: #353b48;
+}
+#main h1{
+    text-align: center;
+    font-family: dancing script;
+    margin-bottom:0;
+}
+#main .pbu{
+    font-size: 24px;
+    font-family: dancing script;
+    text-align: center;
+}
+#main .description{
+    font-size: 24px;
+    text-align: center;
+    color: #57606f;
+}
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+.card{
+    height: 50%;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+}
+@media (max-width: 960px) {
+    .card{
+        height: 100%;
+        width: 100%;
+        left: 0;
+    }
+  }
+#img-caption{
+    font-size: 24px;
+    font-family: 'Raleway';
+    margin-top: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    font-size: 18px;
+}
+h5 span{
+    color:#ff7979;
+}
+.more{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+#tribute-info{
+    margin:50px;
+}

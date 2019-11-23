@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#services{
+    display: flex;
+    justify-content: center;  
+}
+@media screen and (max-width: 992px) {
+    #services{
+        display: block;  
+        text-align: center;
+    }
+  }
+.item{
+    margin: 50px;
+}
+.item-img{
+    height: 200px;
+    width: 200px;
+
+}
+#the-tools-I-use{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;    
+}
+#logo{
+    font-family: 'Dancing script';
+    left:10%;
+}
+#header-img{
+    margin: 10px;
+}
+@media screen and (max-width: 992px) {
+    #logo{
+        left: 50%;
+    }
+  }
+.nav-wrapper{
+    background-color: #2f3640;
+}
+h4{
+    color: #718093;
+}
+.footer{
+    margin: 100px 0 10px 0;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(106, 116, 126);
+}

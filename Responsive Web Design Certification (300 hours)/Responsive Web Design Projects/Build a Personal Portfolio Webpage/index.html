@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+   <meta charset="UTF-8">
+<title> Awixor Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Build a Personal Portfolio Webpage</title>
+
+<link rel="stylesheet" href="style.css">
+<!--************************** FONTS********************************-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Chakra+Petch|Roboto|Dancing+Script|Gloria+Hallelujah|Indie+Flower"
+      rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.010/css/all.css'>
+
+<!--************************** FONTS********************************-->
+
+<!--**************************  CDN Bibliothèque ********************************-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+<link rel='stylesheet'
+      href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css'>
+
+<!--************************** Bibliothèque ********************************-->
+
+</head>
+
+
+<body>
+
+<!--------------------------------------PRELOAD PAGE-------------------------------------->
+
+  <div id="preload-overlay">
+    <div class="loader-frame">
+        <div class="loader1" id="loader1"></div>
+        <div class="loader2" id="loader2"></div>
+    </div>
+</div>
+
+<!--------------------------------------HEADER-------------------------------------->
+
+<header id="main-header">
+    <div class="header-wrapper">
+    <a class="logo" href="#">Awixor</a>
+
+    <div class="mobile-menu">
+        <span class="ch1"></span>
+        <span class="ch2"></span>
+        <span class="ch3"></span>
+    </div>
+
+    <nav id="navbar">
+        <ul>
+            <!--Main nav to navigate to different parts of the page-->
+            <li><a id="home-link" href="#welcome-section">Home</a></li>
+            <li><a id="about-link" href="#about">About </a></li>
+            <li><a id="ressources-link" href="#Ressources">The Lorem</a></li>
+            <li><a id="services-link" href="#projects">Projects</a></li>
+            <li><a id="contact-link" href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+</div>
+</header>
+<!--------------------------------------Home IMAGE-------------------------------------->
+
+ <section  id="welcome-section">
+    <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+      
+        <div class="col-xs-20 col-sm-20 col-md-20 col-lg-20">
+            <div class="home-content">
+                <div class="deco" data-icon="AWX"></div>
+                <div class="text-deco">
+                    <h1 id="home-text-animation">EL HOUCINE AOUASSAR</h1>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8 ">
+                        <a href="#" class="btn btn-sm animated-button victoria-one">
+                            View Resume</a></div>
+                    <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                        <a href="#" class="btn btn-sm animated-button victoria-two">
+                            Get in Touch</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------ABOUT SECTION-------------------------------------->
+
+<section id="about">
+        <div class="container">
+            <div class="row center-xs center-sm center-md center-lg middle-xs middle-sm middle-md middle-lg">
+                <div class="section" data-anchor="skills">
+                    <div class="content col-xs-20 col-sm-20 col-md-20 col-lg-20">
+                        <div class="row no-gutters ">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <h1 class="wow fadeInDown" data-wow-delay="0.2s">About Awixor</h1>
+                                <p class="wow fadeInDown" data-wow-delay="0.2s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"> <img src="https://previews.dropbox.com/p/thumb/AAgLR-W-zGHyytLG7KKMMSLd3T4iOWvUTijPyyOxlItLeh_BPIlpDl7LltbN7UdDuGkS1IATqkHdt_ywAp5Sa-8oznTSMw6KVKG-s2LE5CUND_nudZ7McINuVG5bp_6ySQ_nbyrOQ4WR_DfVyR7t9jQskoTgprgFgRMYdCVn516Jsu4JwbORB23lCmUCKOGTX_iD9WFfR5jCQJzsUWvt9hqkV9rvjhwKogA4Ji4ag4P7cItXFEMwWMT1ttZZrzno2nAI8gD465aD6XSByJeCueSF_6BVo1ItIrkMRT5biZLJqZ6rPWo1wej9ZVTMvSvdkTPPHAA34LXhEcNq92gAHIVHijBcbjrTmGSKkHCefLtJ8Q/p.jpeg?size=2048x1536&size_mode=3" alt="img">
+                            </div>
+                        </div>
+                        <div class=" wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+                            <div class="skillbar clearfix " data-percent="90%">
+                                <div class="skillbar-title" style="background: #EBB035;"><span>Javascript</span></div>
+                                <div class="skillbar-bar" style="background: #EBB035;"></div>
+                                <div class="skill-bar-percent">35</div>
+                            </div> <!-- End Skill Bar #DD1E2F -->
+
+                            <div class="skillbar clearfix " data-percent="80%">
+                                <div class="skillbar-title" style="background: #DD1E2F;"><span>PHP</span></div>
+                                <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                                <div class="skill-bar-percent">30</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="80%">
+                                <div class="skillbar-title" style="background: #218559;"><span>Python</span></div>
+                                <div class="skillbar-bar" style="background: #218559;"></div>
+                                <div class="skill-bar-percent">30</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="70%">
+                                <div class="skillbar-title" style="background: #6840D4;"><span>React</span></div>
+                                <div class="skillbar-bar" style="background: #6840D4;"></div>
+                                <div class="skill-bar-percent">20 </div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="60%">
+                                <div class="skillbar-title" style="background: #06A2CB;"><span>REST API</span></div>
+                                <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                                <div class="skill-bar-percent">15</div>
+                            </div> <!-- End Skill Bar -->
+
+                            <div class="skillbar clearfix " data-percent="50%">
+                                <div class="skillbar-title" style="background: #AB4DD2;"><span>and more</span></div>
+                                <div class="skillbar-bar" style="background: #AB4DD2;"></div>
+                                <div class="skill-bar-percent">10</div>
+                            </div> <!-- End Skill Bar -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--------------------------------------SERVICES SECTION-------------------------------------->
+
+    <section id="Ressources">
+        <div class="container">
+            <div class="section-title">
+                <h1>The <span class="accent-text">Lorem</span></h1>
+            </div>
+
+            <div class="row center-xs center-sm center-md center-lg trigger">
+                <!--Row 1-->
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon fas fa-laptop"></i>
+                        <h3>One</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon fas fa-server"></i>
+                        <h3>Two</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon fab fa-linux"></i>
+                        <h3>Three</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon fas fa-code"></i>
+                        <h3>Four</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon fas fa-cogs"></i>
+                        <h3>Five</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 hb vb">
+                    <div class="ressource-block">
+                        <i class="icon far fa-copy"></i>
+                        <h3>Sex</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet ligula quis lectus
+                            rhoncus porttitor ac ut quam.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+<!--------------------------------------projects SECTION-------------------------------------->
+
+   
+
+<section id="projects">
+    <div class="container">
+        <div class="section-title">
+            <h1>My <span class="accent-text">Projects</span></h1>
+        </div>
+
+        <div id="filter-btn" class="button-group">
+            <ul>
+                <!--Buttons for the image filter-->
+                <!--data-filter="What ever you want your image to be filter by"-->
+                <li>
+                    <button class="button is-checked" data-filter="*">All</button>
+                </li>
+                <li>
+                    <button class="button " data-filter=".certificate">First One</button>
+                </li>
+                <li>
+                    <button class="button" data-filter=".carte">Second One</button>
+                </li>
+                <li>
+                    <button class="button" data-filter=".autre">Third One</button>
+                </li>
+                <!--End of image filter buttonimg/ports-->
+            </ul>
+        </div>
+
+        <div class="img-grid">
+            <div class="img-container certificate" data-category="certificate">
+                <img src="https://images.unsplash.com/photo-1566863244489-a5e7946f46f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="img">
+                <div class="img-overlay popup-gallery">
+                    <div class="img-overlay-text">
+                        <p>Lorem Ipsum</p>
+                        <a href="https://codepen.io/Awixor/pen/KKPQObj"><h3 class="project-tile">Send Lorem Ipsum</h3></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-container carte" data-category="carte">
+                <img src="https://images.unsplash.com/photo-1566864222010-d45675442c31?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="img">
+                <div class="img-overlay popup-gallery">
+                    <div class="img-overlay-text">
+                        <p></p>
+                        <a href="https://codepen.io/Awixor/pen/gOYevBJ"><h3 class="project-tile">Lorem Ipsum Lorem Ipsum</h3></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-container autre" data-category="autre">
+                <img src="https://images.unsplash.com/photo-1546687699-05723cfd2a9b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="img">
+                <div class="img-overlay popup-gallery">
+                    <div class="img-overlay-text">
+                        <p>Lorem Ipsum</p>
+                        <a href="https://codepen.io/Awixor/pen/LYPKZgB"><h3 class="project-tile">Lorem Ipsum Lorem Ipsum</h3></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-container autre" data-category="autre">
+                <img src="https://images.unsplash.com/photo-1561701374-4baad1cd365d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="img">
+                <div class="img-overlay popup-gallery">
+                    <div class="img-overlay-text">
+                        <p>Lorem Ipsum?</p>
+                        <a href="https://codepen.io/Awixor/pen/GRRjNqr"><h3 class="project-tile">Lorem Ipsum Lorem Ipsum</h3></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="img-container certificate" data-category="certificate">
+                <img src="https://images.unsplash.com/photo-1555095161-117814b68d38?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80" alt="img">
+                <div class="img-overlay popup-gallery">
+                    <div class="img-overlay-text">
+                        <p>Lorem Ipsum </p>
+                        <a href="https://codepen.io/Awixor/pen/GRRjNqr"><h3 class="project-tile">Lorem Ipsum Lorem Ipsum</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------------CONTACT SECTION-------------------------------------->
+
+    <section id="contact">
+    <div class="container">
+        <div class="section-title">
+            <h1>contact <span class="accent-text">Me</span></h1>
+        </div>
+
+        <div class="row center-xs center-sm center-md center-lg">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="contact-info">
+
+                    <div class="contact-block">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="contact-text">
+                            <p>Call</p>
+                            <p>+1-641-1234</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-block">
+                        <i class="far fa-envelope"></i>
+                        <div class="contact-text">
+                            <p>Email</p>
+                            <p>me@awixor.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-block">
+                        <i class="fas fa-location-arrow"></i>
+                        <div class="contact-text">
+                            <p>Address</p>
+                            <p>Osage, IA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                <form id="contact-form" action="" method="POST">
+                    <div class="field">
+                        Name <span>*</span><br>
+                        <input name="name" type="text" id="name" placeholder="Awixor" required>
+                    </div>
+                    <div class="field">
+                        Email <span>*</span><br>
+                        <input type="email" name="email" id="email" placeholder="Exemple@awixor.com" required>
+                    </div>
+                    <div class="field">
+                        Object<br>
+                        <input type="text" name="subject" id="subject" placeholder="Your subject">
+                    </div>
+                    <div class="field">
+                        Message <span>*</span><br>
+                        <textarea id="message" name="message" rows="10" cols="75" placeholder="Write your message here."
+                                  required></textarea>
+                    </div>
+                    <div class="field">
+                        <input type="submit" id="contact-submit" value="Envoyer"><span id="status"></span>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<a href="#home" class="back-to-top">
+    <i class="fa fa-chevron-up"></i>
+</a>
+
+<!--------------------------------------FOOTER SECTION-------------------------------------->
+
+<footer>
+    
+
+
+<p>
+    <a id="profile-link" style="text-decoration: none;color: #fff;font-size: 12px;font-family: 'Courier New';" href="https://github.com/AWIXOR"> Made with <i class="fa fa-heartbeat" style="color: red;"></i> By Awixor</a>.
+    <a
+      id="profile-link"
+      href="https://github.com/AWIXOR"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+</p>
+
+</footer>
+
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.2/ScrollMagic.min.js'></script>
+<script src="https://s3-us-west-2.amazonaws.com/parallax-theme/assets/wow.min.js"></script>
+<script src="app.js"></script>
+
+</html>

@@ -1,11 +1,12 @@
 # FreeCodeCamp-certifications
-Here I'll put my progress on the FreeCodeCamp certifications: 
- [FreeCodeCamp Official Website](https://www.freecodecamp.org/learn/).
- 
+
+Here I'll put my progress on the FreeCodeCamp certifications:
+[FreeCodeCamp Official Website](https://www.freecodecamp.org/learn/).
+
 # Certifications
 
-  ## Responsive Web Design Certification (300 hours)
-  
+## Responsive Web Design Certification (300 hours)
+
   <ol>
     <li>Basic HTML and HTML5</li>
     <li>Basic CSS</li>
@@ -24,8 +25,8 @@ Here I'll put my progress on the FreeCodeCamp certifications:
     <li>ES6 :heavy_check_mark:</li>
     <li>Regular Expressions :heavy_check_mark:</li>
     <li>Debugging :heavy_check_mark:</li>
-    <li>Basic Data Structures</li>
-    <li>Basic Algorithm Scripting</li>
+    <li>Basic Data Structures :heavy_check_mark:</li>
+    <li>Basic Algorithm Scripting :heavy_check_mark:</li>
     <li>Object Oriented Programming</li>
     <li>Functional Programming </li>
     <li>Intermediate Algorithm Scripting</li>
